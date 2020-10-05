@@ -15,6 +15,7 @@ struct ApiUrls {
     static let articles = "\(base)/articles"
 }
 
+// TODO: Should be moved to a mockable api class
 func getArticles(onError: @escaping () -> Void, completion: @escaping (Articles?) -> Void ){
     Alamofire.request(
         ApiUrls.articles,
