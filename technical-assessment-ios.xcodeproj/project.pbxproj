@@ -13,6 +13,9 @@
 		62518D04252B52A30025B02D /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62518D03252B52A30025B02D /* StringExtensions.swift */; };
 		62518D06252B52F00025B02D /* UIImageViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62518D05252B52F00025B02D /* UIImageViewExtension.swift */; };
 		62518D0A252B5B920025B02D /* UiColorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62518D09252B5B920025B02D /* UiColorExtensions.swift */; };
+		62518D12252CB26B0025B02D /* technical_assessment_iosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62518D11252CB26B0025B02D /* technical_assessment_iosUITests.swift */; };
+		62518D1A25332D400025B02D /* UiTableViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62518D1925332D400025B02D /* UiTableViewExtension.swift */; };
+		62518D1C253332980025B02D /* UiLabelExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62518D1B253332980025B02D /* UiLabelExtensions.swift */; };
 		627845282527AD5400932E21 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 627845272527AD5400932E21 /* AppDelegate.swift */; };
 		6278452A2527AD5400932E21 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 627845292527AD5400932E21 /* MainViewController.swift */; };
 		6278452D2527AD5400932E21 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6278452B2527AD5400932E21 /* Main.storyboard */; };
@@ -31,6 +34,13 @@
 			remoteGlobalIDString = 627845232527AD5400932E21;
 			remoteInfo = "technical-assessment-ios";
 		};
+		62518D14252CB26B0025B02D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6278451C2527AD5400932E21 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 627845232527AD5400932E21;
+			remoteInfo = "technical-assessment-ios";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +53,11 @@
 		62518D03252B52A30025B02D /* StringExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtensions.swift; sourceTree = "<group>"; };
 		62518D05252B52F00025B02D /* UIImageViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageViewExtension.swift; sourceTree = "<group>"; };
 		62518D09252B5B920025B02D /* UiColorExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UiColorExtensions.swift; sourceTree = "<group>"; };
+		62518D0F252CB26B0025B02D /* technical-assessment-iosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "technical-assessment-iosUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		62518D11252CB26B0025B02D /* technical_assessment_iosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = technical_assessment_iosUITests.swift; sourceTree = "<group>"; };
+		62518D13252CB26B0025B02D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		62518D1925332D400025B02D /* UiTableViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UiTableViewExtension.swift; sourceTree = "<group>"; };
+		62518D1B253332980025B02D /* UiLabelExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UiLabelExtensions.swift; sourceTree = "<group>"; };
 		627845242527AD5400932E21 /* technical-assessment-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "technical-assessment-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		627845272527AD5400932E21 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		627845292527AD5400932E21 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
@@ -58,6 +73,13 @@
 
 /* Begin PBXFrameworksBuildPhase section */
 		62518CF5252A86CC0025B02D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62518D0C252CB26B0025B02D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -99,8 +121,19 @@
 				62518D03252B52A30025B02D /* StringExtensions.swift */,
 				62518D05252B52F00025B02D /* UIImageViewExtension.swift */,
 				62518D09252B5B920025B02D /* UiColorExtensions.swift */,
+				62518D1925332D400025B02D /* UiTableViewExtension.swift */,
+				62518D1B253332980025B02D /* UiLabelExtensions.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		62518D10252CB26B0025B02D /* technical-assessment-iosUITests */ = {
+			isa = PBXGroup;
+			children = (
+				62518D11252CB26B0025B02D /* technical_assessment_iosUITests.swift */,
+				62518D13252CB26B0025B02D /* Info.plist */,
+			);
+			path = "technical-assessment-iosUITests";
 			sourceTree = "<group>";
 		};
 		6278451B2527AD5400932E21 = {
@@ -108,6 +141,7 @@
 			children = (
 				627845262527AD5400932E21 /* technical-assessment-ios */,
 				62518CF9252A86CC0025B02D /* technical-assessment-iosTests */,
+				62518D10252CB26B0025B02D /* technical-assessment-iosUITests */,
 				627845252527AD5400932E21 /* Products */,
 				600A41AF288555A98BFE15DF /* Pods */,
 				AAD94D888F182A365F17444A /* Frameworks */,
@@ -119,6 +153,7 @@
 			children = (
 				627845242527AD5400932E21 /* technical-assessment-ios.app */,
 				62518CF8252A86CC0025B02D /* technical-assessment-iosTests.xctest */,
+				62518D0F252CB26B0025B02D /* technical-assessment-iosUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -218,6 +253,24 @@
 			productReference = 62518CF8252A86CC0025B02D /* technical-assessment-iosTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		62518D0E252CB26B0025B02D /* technical-assessment-iosUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62518D18252CB26B0025B02D /* Build configuration list for PBXNativeTarget "technical-assessment-iosUITests" */;
+			buildPhases = (
+				62518D0B252CB26B0025B02D /* Sources */,
+				62518D0C252CB26B0025B02D /* Frameworks */,
+				62518D0D252CB26B0025B02D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				62518D15252CB26B0025B02D /* PBXTargetDependency */,
+			);
+			name = "technical-assessment-iosUITests";
+			productName = "technical-assessment-iosUITests";
+			productReference = 62518D0F252CB26B0025B02D /* technical-assessment-iosUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 		627845232527AD5400932E21 /* technical-assessment-ios */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 627845362527AD5500932E21 /* Build configuration list for PBXNativeTarget "technical-assessment-ios" */;
@@ -251,6 +304,10 @@
 						CreatedOnToolsVersion = 10.3;
 						TestTargetID = 627845232527AD5400932E21;
 					};
+					62518D0E252CB26B0025B02D = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 627845232527AD5400932E21;
+					};
 					627845232527AD5400932E21 = {
 						CreatedOnToolsVersion = 10.3;
 					};
@@ -271,12 +328,20 @@
 			targets = (
 				627845232527AD5400932E21 /* technical-assessment-ios */,
 				62518CF7252A86CC0025B02D /* technical-assessment-iosTests */,
+				62518D0E252CB26B0025B02D /* technical-assessment-iosUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
 		62518CF6252A86CC0025B02D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62518D0D252CB26B0025B02D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -346,6 +411,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		62518D0B252CB26B0025B02D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62518D12252CB26B0025B02D /* technical_assessment_iosUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		627845202527AD5400932E21 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -356,9 +429,11 @@
 				62518D04252B52A30025B02D /* StringExtensions.swift in Sources */,
 				62518D0A252B5B920025B02D /* UiColorExtensions.swift in Sources */,
 				627845282527AD5400932E21 /* AppDelegate.swift in Sources */,
+				62518D1C253332980025B02D /* UiLabelExtensions.swift in Sources */,
 				62EF40DF252A670000CD2F84 /* ArticleTagListView.swift in Sources */,
 				62518D06252B52F00025B02D /* UIImageViewExtension.swift in Sources */,
 				6278453F2527B07500932E21 /* ApiService.swift in Sources */,
+				62518D1A25332D400025B02D /* UiTableViewExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -369,6 +444,11 @@
 			isa = PBXTargetDependency;
 			target = 627845232527AD5400932E21 /* technical-assessment-ios */;
 			targetProxy = 62518CFD252A86CC0025B02D /* PBXContainerItemProxy */;
+		};
+		62518D15252CB26B0025B02D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 627845232527AD5400932E21 /* technical-assessment-ios */;
+			targetProxy = 62518D14252CB26B0025B02D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -427,6 +507,42 @@
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/technical-assessment-ios.app/technical-assessment-ios";
+			};
+			name = Release;
+		};
+		62518D16252CB26B0025B02D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "technical-assessment-iosUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yannhuissoud.technical-assessment-iosUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "technical-assessment-ios";
+			};
+			name = Debug;
+		};
+		62518D17252CB26B0025B02D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "technical-assessment-iosUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yannhuissoud.technical-assessment-iosUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "technical-assessment-ios";
 			};
 			name = Release;
 		};
@@ -592,6 +708,15 @@
 			buildConfigurations = (
 				62518D00252A86CC0025B02D /* Debug */,
 				62518D01252A86CC0025B02D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		62518D18252CB26B0025B02D /* Build configuration list for PBXNativeTarget "technical-assessment-iosUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62518D16252CB26B0025B02D /* Debug */,
+				62518D17252CB26B0025B02D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

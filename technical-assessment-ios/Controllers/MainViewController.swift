@@ -11,6 +11,7 @@ import Kingfisher
 
 class MainViewController: UITableViewController {
     
+    
     var articles = Articles()
     
     override func viewDidLoad() {
@@ -34,6 +35,7 @@ class MainViewController: UITableViewController {
     }
     
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        articles.count == 0 ? tableView.showAsEmpty() : tableView.undoEmptyState()
         return articles.count
     }
     

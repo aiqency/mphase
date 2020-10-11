@@ -16,17 +16,17 @@ struct ApiUrls {
 }
 
 // TODO: Should be moved to a mockable api class
-func getArticles(onError: @escaping () -> Void, completion: @escaping (Articles?) -> Void ){
+func getArticles(onError: @escaping () -> Void, completion: @escaping (Articles?) -> Void){
     Alamofire.request(
         ApiUrls.articles,
         headers : [ "Authorization" : "Bearer AiCwsO25HwN6XOZkLaR3bE4JggkmFsCF" ]
-    ).responseJSON { response in
-        if (response.result.isSuccess){
-            let articles = try? JSONDecoder().decode(Articles.self, from: response.data!)
-            completion(articles)
-        } else {
-            print("###Error: \(response.error.debugDescription)")
-            onError()
-        }
+        ).responseJSON { response in
+            if (response.result.isSuccess){
+                let articles = try? JSONDecoder().decode(Articles.self, from: response.data!)
+                completion(articles)
+            } else {
+                print("###Error: \(response.error.debugDescription)")
+                onError()
+            }
     }
 }

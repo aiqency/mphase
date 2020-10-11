@@ -6,7 +6,6 @@
 //  Copyright © 2020 yannhuissoud. All rights reserved.
 //
 
-import Foundation
 import Kingfisher
 import UIKit
 
